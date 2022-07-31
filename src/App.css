@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: center;
+  height: 2.5rem;
+  background-color: #f55a5a;
+}
+
+.globe-icon {
+  width: 1.5rem;
+  height: auto;
+}
+
+.heading {
+  margin: auto 0 auto 5px;    
+}
+
+.card {
+  display: flex;
+}
+
+.card-img {
+  width: 125px;
+  height: 168px;
+  border-radius: 6px;
+}
+
+.maps-division {
+  display: flex;
+}
+
+.pinpoint-location-icon {
+  display: flex;
+  gap: 3px;
+}
+
+.map-link {
+  margin-left: 12px;
+  margin-top: 11px;
+  font-size: 12px;
+}
