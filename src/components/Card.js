@@ -5,7 +5,7 @@ const Card = (props) => {
   return (
     <div className="card">
       <div className="image-holder">
-        <img src={props.imageUrl} alt="image" className="card-img" />
+        <img src={props.imageUrl} alt="landscape" className="card-img" />
       </div>
 
       <div className="card-info">
@@ -27,12 +27,12 @@ const Card = (props) => {
             <p>view on google map</p>
           </a>
         </div>
-        <h2>{props.title}</h2>
+        <h2 className="spot">{props.title}</h2>
         <div>
           <p>
             {props.startDate}-{props.endDate}
           </p>
-          <p>{props.description}</p>
+          <p className="description-para">{props.description}</p>
         </div>
       </div>
     </div>
