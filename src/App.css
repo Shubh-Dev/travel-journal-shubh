@@ -1,0 +1,64 @@
+.App {
+  margin: auto;
+  width: 50%;
+  margin-bottom: 10rem;
+  border: 1px solid #f55a5a;
+  padding: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  height: 2.5rem;
+  background-color: #f55a5a;
+}
+
+.globe-icon {
+  width: 1.5rem;
+  height: auto;
+}
+
+.maps-icon {
+  max-width: 9px;
+}
+
+.heading {
+  margin: auto 0 auto 5px;
+}
+
+.card {
+  display: flex;
+  gap: 1rem;
+}
+
+.card-img {
+  width: 125px;
+  height: 168px;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+.maps-division {
+  display: flex;
+  margin-bottom: auto;
+}
+
+.pinpoint-location-icon {
+  display: flex;
+  gap: 3px;
+}
+
+.map-link {
+  margin-left: 12px;
+  margin-top: 11px;
+  font-size: 12px;
+}
+
+.spot {
+  margin-top: -1rem;
+}
+
+.description-para {
+  font-size: 14px;
+  margin-top: -0.5rem;
+}
