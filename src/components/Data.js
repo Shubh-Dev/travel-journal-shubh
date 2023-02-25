@@ -33,7 +33,7 @@ const Data = [
   },
 
   {
-    id:4,
+    id: 4,
     title: 'Padubidri beach',
     location: 'India',
     googleMapsUrl: 'https://www.google.com/maps/d/u/0/viewer?mid=1fyutstacNnT7BXznjnRtroxje80&hl=en_US&ll=13.199253999999994%2C74.77170500000001&z=17',

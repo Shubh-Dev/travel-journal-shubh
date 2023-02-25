@@ -1,11 +1,15 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const Card = (props) => {
-  console.log(props);
+  const {
+    key, title, location, googleMapsUrl, startDate, endDate, description, imageUrl,
+  } = props;
+
   return (
-    <div className="card">
+    <div className="card" key={key}>
       <div className="image-holder">
-        <img src={props.imageUrl} alt="landscape" className="card-img" />
+        <img src={imageUrl} alt="landscape" className="card-img" />
       </div>
 
       <div className="card-info">
@@ -16,10 +20,10 @@ const Card = (props) => {
               alt="maps"
               className="maps-icon"
             />
-            <h6>{props.location}</h6>
+            <h6>{location}</h6>
           </div>
           <a
-            href={props.googleMapsUrl}
+            href={googleMapsUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="map-link"
@@ -27,16 +31,29 @@ const Card = (props) => {
             <p>view on google map</p>
           </a>
         </div>
-        <h2 className="spot">{props.title}</h2>
+        <h2 className="spot">{title}</h2>
         <div>
           <p>
-            {props.startDate}-{props.endDate}
+            {startDate}
+            -
+            {endDate}
           </p>
-          <p className="description-para">{props.description}</p>
+          <p className="description-para">{description}</p>
         </div>
       </div>
     </div>
   );
+};
+
+Card.propTypes = {
+  key: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  googleMapsUrl: PropTypes.string.isRequired,
+  startDate: PropTypes.string.isRequired,
+  endDate: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  imageUrl: PropTypes.string.isRequired,
 };
 
 export default Card;
