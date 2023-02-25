@@ -31,6 +31,18 @@ const Data = [
     description: 'Geirangerford is a mountain in the Norwegian country of Norway. It is located in the Østfold region of Norway, in the stfoldmountains region of the country.',
     imageUrl: 'https://source.unsplash.com/3PeSjpLVtLg',
   },
+
+  {
+    id:4,
+    title: 'Padubidri beach',
+    location: 'India',
+    googleMapsUrl: 'https://www.google.com/maps/d/u/0/viewer?mid=1fyutstacNnT7BXznjnRtroxje80&hl=en_US&ll=13.199253999999994%2C74.77170500000001&z=17',
+    startDate: '19 December, 2022',
+    endDate: '23 December, 2022',
+    description: 'Padubidri beach is one of the many beaches in Udupi and it is for sure one of the very calm and serene beaches in Udupi.',
+    imageUrl: 'https://www.karnataka.com/wp-content/uploads/2021/02/Padubidri-Beach.jpg',
+  },
+
 ];
 
 export default Data;
